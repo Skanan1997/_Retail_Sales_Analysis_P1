@@ -25,19 +25,20 @@ This project is designed to demonstrate SQL skills and techniques typically used
 ```sql
 CREATE DATABASE Retail_Sales_Analysis_SQL_Project_P1;
 
-CREATE TABLE retail_sales
+Create Table retail_sales
 (
-    transactions_id INT PRIMARY KEY,
-    sale_date DATE,	
-    sale_time TIME,
-    customer_id INT,	
-    gender VARCHAR(10),
-    age INT,
-    category VARCHAR(35),
-    quantity INT,
-    price_per_unit FLOAT,	
-    cogs FLOAT,
-    total_sale FLOAT
+transactions_id	int,
+sale_date	date,
+sale_time	time,
+customer_id	int,
+gender	varchar(50),
+age	int,
+category varchar(50),
+quantiy	int,
+price_per_unit	float,
+cogs	float,
+total_sale float
+
 );
 ```
 
